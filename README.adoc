@@ -195,3 +195,13 @@ Also see xref:CONTRIBUTING.adoc[CONTRIBUTING] for contribution guidelines.
 == Related resources
 
 * https://developer.arm.com/documentation/101897/latest/[Mali GPU Best Practices]: A document with recommendations for efficient API usage
+
+## How to Build
+
+![](./docs/images/Snipaste_2026-05-28_16-20-57.png)
+
+```
+./gen_vs2022.bat
+```
+- Open Visual Studio project in `./build/vs2022-x64-windows`
+- Set As Startup project `vulkan_samples`
